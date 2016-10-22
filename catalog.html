@@ -6,11 +6,13 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="block-central">
+      <div class="container">
         <nav class="main-navigation">
           <ul>
             <li>
-              <a class="main-page" href="#"></a>
+              <a class="main-page" href="#">
+                <img src="img/logo.png" width="150" height="50" alt="Barbershop">
+              </a>
             </li>
             <li>
               <a href="#">Информация</a>
@@ -34,5 +36,101 @@
         </div>
       </div>
     </header>
+    <div class="container">
+      <h1>Средства для ухода</h1>
+      <div class="breadcrumps">
+        <ol>
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Средства для ухода</a>
+          </li>
+        </ol>
+      </div>
+      <h2>Производители:</h2>
+      <div class="manufacturers">
+        <input type="checkbox" id="baxter-of-california" checked><label for="baxter-of-california">Baxter of California</label><br>
+        <input type="checkbox" id="mr-natty"><label for="mr-natty">Mr Natty</label><br>
+        <input type="checkbox" id="suavecito" checked><label for="suavecito">Suavecito</label><br>
+        <input type="checkbox" id="malin-goetz"><label for="malin-goetz">Malin+Goetz</label><br>
+        <input type="checkbox" id="murrays"><label for="murrays">Murray's</label><br>
+        <input type="checkbox" id="american-crew" checked><label for="american-crew">American Crew</label>
+      </div>
+      <h2>Группы товаров:</h2>
+      <div>
+        <input type="radio" id="shaving-accessories"><label for id="shaving-accessories">Бритвенные принадлежности</label><br>
+        <input type="radio" id="means-for-care" checked><label for id="means-for-care">Средства для ухода</label><br>
+        <input type="radio" id="accessories"><label for id="accessories">Аксессуары</label>
+      </div><br>
+      <a class="btn" href="#">Показать</a>
+      <section class="items">
+        <article class="item">
+          <img src="img/1.png" alt="Набор для путешествий &quot;BAXTOR OF CALIFORNIA&quot;"><br>
+          <p class="item-name">Набор для путешествий "BAXTOR OF CALIFORNIA"</p>
+          <div class="item-price">2900 руб.</div>
+          <a class="btn">Купить</a>
+        </article>
+        <article class="item">
+          <img src="img/2.png" alt="Увлажняющий кондиционер &quot;BAXTOR OF CALIFORNIA&quot;"><br>
+          <p class="item-name">Увлажняющий кондиционер "BAXTOR OF CALIFORNIA"</p>
+          <div class="item-price">750 руб.</div>
+          <a class="btn">Купить</a>
+        </article>
+        <article class="item">
+          <img src="img/3.png" alt="Гель для волос &quot;SUAVECITO&quot;"><br>
+          <p class="item-name">Гель для волос "SUAVECITO"</p>
+          <div class="item-price">290 руб.</div>
+          <a class="btn">Купить</a>
+        </article>
+        <article class="item">
+          <img src="img/4.png" alt="Глина для укладки волос &quot;American Crew&quot;"><br>
+          <p class="item-name">Глина для укладки волос "American Crew"</p>
+          <div class="item-price">500 руб.</div>
+          <a class="btn">Купить</a>
+        </article>
+        <article class="item">
+          <img src="img/5.png" alt="Гель для волос &quot;American Crew&quot;"><br>
+          <p class="item-name">Гель для волос "American Crew"</p>
+          <div class="item-price">300 руб.</div>
+          <a class="btn">Купить</a>
+        </article>
+        <article class="item">
+          <img src="img/6.png" alt="Набор для бритья &quot;BAXTOR OF CALIFORNIA&quot;"><br>
+          <p class="item-name">Набор для бритья "BAXTOR OF CALIFORNIA"</p>
+          <div class="item-price">3900 руб.</div>
+          <a class="btn">Купить</a>
+        </article>
+      </section><br>
+      <div class="catalog-pages">
+        <a class="catalog-page" href="#">1</a>
+        <a class="catalog-page active" href="#">2</a>
+        <a class="catalog-page" href="#">3</a>
+        <a class="catalog-page" href="#">4</a>
+      </div>
+    </div>
+    <footer class="main-footer">
+     <div class="container">
+       <section class="footer-contacts">
+         Барбершоп «Бородинский»<br>
+         Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+         <a href="#">Как нас найти?</a><br>
+         Телефон: +7 (812) 666-02-66
+       </section>
+       <section class="footer-social">
+         <p>Давайте дружить!</p>
+         <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+         <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+         <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+       </section>
+       <section class="footer-copyright">
+         <p>Разработано:</p>
+         <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+       </section>
+     </div>
+   </footer>
   </body>
 </html>

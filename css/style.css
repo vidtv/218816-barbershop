@@ -1,0 +1,26 @@
+body {
+  font-size: 14px;
+  line-height: 17.86px;
+  color: black;
+  font-family: "Myriad Pro";
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  src: url(fonts/PT Sans Narrow.ttf);
+}
+
+h2, h3 {
+  color: black;
+  font-family: "PT Sans Narrow";
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+}

@@ -1,8 +1,69 @@
 body {
   font-size: 14px;
-  line-height: 17.86px;
+  line-height: 18px;
   color: black;
-  font-family: "Myriad Pro";
+  font-family: "Myriad Pro", "Arial", sans-serif;
+  background-color: #f4f1ee;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.page-header {
+  margin-bottom: 60px;
+  background-color: black;
+}
+
+.main-navigation {
+  min-height: 70px;
+  width: 780px;
+  float: left;
+}
+
+.user-block {
+  min-height: 70px;
+  width: 140px;
+  float: right;
+  outline: green solid 1px;
+}
+
+.main-navigation a, .user-block a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  width: auto;
+  padding: 0 20px 0;
+}
+
+.main-navigation ul {
+  width: auto;
+  padding-left: 0px;
+  min-height: 40px;
+  line-height: 40px;
+  outline: red solid 1px;
+}
+
+.main-navigation li {
+  display: inline-block;
+  outline: white solid 1px;
+}
+
+.main-navigation img {
+  vertical-align: middle;
+}
+
+.user-login {
+  margin: 10px;
+  text-align: center;
+  outline: yellow solid 1px;
 }
 
 @font-face {

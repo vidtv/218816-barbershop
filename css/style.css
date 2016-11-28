@@ -6,6 +6,7 @@ body {
   background-color: #f4f1ee;
 }
 
+/* блок-центровщик */
 .container {
   width: 960px;
   margin: 0 auto;
